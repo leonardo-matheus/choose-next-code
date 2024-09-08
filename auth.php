@@ -15,3 +15,4 @@ if (isset($_GET['code'])) {
     header('Location: ' . $url);
     exit();
 }
+?>
