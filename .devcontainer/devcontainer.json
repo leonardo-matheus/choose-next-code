@@ -1,0 +1,10 @@
+{
+    "name": "PHP Development",
+    "build": {
+      "dockerfile": "Dockerfile"
+    },
+    "postCreateCommand": "composer install",
+    "forwardPorts": [80],
+    "remoteUser": "vscode"
+  }
+  
